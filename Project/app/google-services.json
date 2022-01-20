@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "413721192589",
+    "project_id": "ez-money-50f37",
+    "storage_bucket": "ez-money-50f37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413721192589:android:e17a30b4a22901dd0a5ac4",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413721192589-evar148rnhtd65k5rvluurr92k3ao113.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project",
+            "certificate_hash": "f999d88e577587ae0d975ec4a0bb5f411a105d41"
+          }
+        },
+        {
+          "client_id": "413721192589-4kipn2vketh5t034hcp0ia0r1p0gfdcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5xMXGsFgKP3kDKlgHYRMblf8pD4wtqk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413721192589-4kipn2vketh5t034hcp0ia0r1p0gfdcc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

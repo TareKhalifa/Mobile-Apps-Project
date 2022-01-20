@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dip"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:elevation="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/member_img1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/defaultuserimg"
+            android:layout_centerVertical="true" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/should_pay_name"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dip"
+        android:padding="3dip"
+        android:gravity="start|center"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/amount_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="end|center"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="5dp"
+            android:text="50"
+            android:textColor="@android:color/black" />
+    <ImageView
+        android:id="@+id/arrooow"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:src="@drawable/carrow"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginEnd="30dp"
+        android:layout_centerVertical="true" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:elevation="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/member_img2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/defaultuserimg"
+            android:layout_centerVertical="true" />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/paid_to_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+
+        android:padding="3dip"
+        android:gravity="start|center"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

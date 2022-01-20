@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.project.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/create_group"
+        android:name="com.example.project.CreateGroup"
+        android:label="Create a Group"
+        tools:layout="@layout/fragment_create_group" />
+
+
+    <fragment
+        android:id="@+id/join_group"
+        android:name="com.example.project.joingroup.JoinGroup"
+        android:label="Join a Group"
+        tools:layout="@layout/fragment_join_group"
+        />
+
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="com.example.project.MyGroupsFragment"
+        android:label="My Groups"
+        tools:layout="@layout/my_groups_fragment" />
+</navigation>

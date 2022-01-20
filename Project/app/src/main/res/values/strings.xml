@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <integer-array name="genres_images">
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+    </integer-array>
+    <string-array name="Adventure_Names">
+        <item>Big Buck Bunny</item>
+        <item>The Adventures of Tom Sawyer</item>
+        <item>The Adventures of Huckleberry Finn</item>
+        <item>The Adventures of Robin Hood</item>
+    </string-array>
+    <string-array name="Adventure_Duration">
+        <item>Loading...</item>
+    </string-array>
+    <string-array name="Adventure_Url">
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4</item>
+    </string-array>
+    <string-array name="Drama_Names">
+        <item>Sahel trip</item>
+        <item>Wadi Degla bbq</item>
+        <item>Dahab outing</item>
+        <item>Tarek birthday</item>
+        <item>Graduation ceremony</item>
+        <item>Cinema day</item>
+        <item>World cup final screening</item>
+        <item>Hello World</item>
+        <item>Group111</item>
+        <item>Group 222</item>
+        <item>TEST</item>
+        <item>Test group</item>
+        <item>TEST111</item>
+        <item>TEST333</item>
+        <item>TEST3333</item>
+    </string-array>
+    <string-array name="Drama_Duration">
+        <item>K9OOH7</item>
+        <item>K9OOH7</item>
+        <item>K9OOH7</item>
+        <item>K9OOH7</item>
+        <item>K9OOH7</item>
+        <item>K9OOH7</item>
+        <item>K9OOH7</item>
+        <item>K9OOH7</item>
+        <item>K9OOH7</item>
+        <item>K9OOH7</item>
+        <item>K9OOH7</item>
+        <item>K9OOH7</item>
+        <item>K9OOH7</item>
+        <item>K9OOH7</item>
+        <item>K9OOH7</item>
+    </string-array>
+    <string-array name="Drama_Url">
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4</item>
+    </string-array>
+    <string-array name="Comedy_Names">
+        <item>The Big Lebowski</item>
+        <item>The Hangover</item>
+        <item>The Dark Knight</item>
+    </string-array>
+    <string-array name="Comedy_Duration">
+        <item>7:19</item>
+        <item>1:00</item>
+        <item>10:28</item>
+    </string-array>
+    <string-array name="Comedy_Url">
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</item>
+    </string-array>
+    <string-array name="SciFi_Names">
+        <item>Interstellar</item>
+        <item>The Martian</item>
+        <item>Batman</item>
+        <item>Interstellar</item>
+    </string-array>
+    <string-array name="SciFi_Duration">
+        <item>1:51</item>
+        <item>2:43</item>
+        <item>1:21</item>
+        <item>3:05</item>
+
+
+    </string-array>
+    <string-array name="SciFi_Url">
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4</item>
+        <item>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4</item>
+    </string-array>
+    <string name="dev_name">Name: Tarek Khalifa\nID: 900172646</string>
+    <string name="Linkedin"><a href="https://www.linkedin.com/in/tarek-khalifa-14380519a/">Linkedin</a></string>
+    <string name="Github"><a href="https://github.com/tarekhalifa">Github</a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

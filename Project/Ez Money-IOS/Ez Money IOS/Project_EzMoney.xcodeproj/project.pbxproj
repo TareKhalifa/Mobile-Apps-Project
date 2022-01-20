@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50761E2B27991086005FC84E /* transHistory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50761E2A27991086005FC84E /* transHistory.storyboard */; };
+		50761E2D2799163A005FC84E /* trans2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50761E2C2799163A005FC84E /* trans2.storyboard */; };
+		50761E2F27991745005FC84E /* tarns3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50761E2E27991745005FC84E /* tarns3.storyboard */; };
+		8A15CAE62795EBC900C60D0B /* joinGroup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A15CAE52795EBC900C60D0B /* joinGroup.storyboard */; };
+		8A7550DA2795F84F004978DD /* MyGroups.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7550D92795F84F004978DD /* MyGroups.storyboard */; };
+		8A7550DC2795FE20004978DD /* AddExpenses.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7550DB2795FE20004978DD /* AddExpenses.storyboard */; };
+		8AA8AD8F2795DC3E0017C458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA8AD8E2795DC3E0017C458 /* AppDelegate.swift */; };
+		8AA8AD912795DC3E0017C458 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA8AD902795DC3E0017C458 /* SceneDelegate.swift */; };
+		8AA8AD932795DC3E0017C458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA8AD922795DC3E0017C458 /* ViewController.swift */; };
+		8AA8AD962795DC3E0017C458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA8AD942795DC3E0017C458 /* Main.storyboard */; };
+		8AA8AD982795DC400017C458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA8AD972795DC400017C458 /* Assets.xcassets */; };
+		8AA8AD9B2795DC400017C458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA8AD992795DC400017C458 /* LaunchScreen.storyboard */; };
+		8AA8ADA62795DC410017C458 /* Project_EzMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA8ADA52795DC410017C458 /* Project_EzMoneyTests.swift */; };
+		8AA8ADB02795DC410017C458 /* Project_EzMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA8ADAF2795DC410017C458 /* Project_EzMoneyUITests.swift */; };
+		8AA8ADB22795DC410017C458 /* Project_EzMoneyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA8ADB12795DC410017C458 /* Project_EzMoneyUITestsLaunchTests.swift */; };
+		8AA8ADBF2795E90A0017C458 /* createGroup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA8ADBE2795E90A0017C458 /* createGroup.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AA8ADA22795DC410017C458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AA8AD832795DC3E0017C458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AA8AD8A2795DC3E0017C458;
+			remoteInfo = Project_EzMoney;
+		};
+		8AA8ADAC2795DC410017C458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AA8AD832795DC3E0017C458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AA8AD8A2795DC3E0017C458;
+			remoteInfo = Project_EzMoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50761E2A27991086005FC84E /* transHistory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = transHistory.storyboard; sourceTree = "<group>"; };
+		50761E2C2799163A005FC84E /* trans2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = trans2.storyboard; sourceTree = "<group>"; };
+		50761E2E27991745005FC84E /* tarns3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tarns3.storyboard; sourceTree = "<group>"; };
+		8A15CAE52795EBC900C60D0B /* joinGroup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = joinGroup.storyboard; sourceTree = "<group>"; };
+		8A7550D92795F84F004978DD /* MyGroups.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyGroups.storyboard; sourceTree = "<group>"; };
+		8A7550DB2795FE20004978DD /* AddExpenses.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddExpenses.storyboard; sourceTree = "<group>"; };
+		8AA8AD8B2795DC3E0017C458 /* Project_EzMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project_EzMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA8AD8E2795DC3E0017C458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AA8AD902795DC3E0017C458 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8AA8AD922795DC3E0017C458 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AA8AD952795DC3E0017C458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AA8AD972795DC400017C458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AA8AD9A2795DC400017C458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AA8AD9C2795DC400017C458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AA8ADA12795DC410017C458 /* Project_EzMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project_EzMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA8ADA52795DC410017C458 /* Project_EzMoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_EzMoneyTests.swift; sourceTree = "<group>"; };
+		8AA8ADAB2795DC410017C458 /* Project_EzMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project_EzMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA8ADAF2795DC410017C458 /* Project_EzMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_EzMoneyUITests.swift; sourceTree = "<group>"; };
+		8AA8ADB12795DC410017C458 /* Project_EzMoneyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_EzMoneyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8AA8ADBE2795E90A0017C458 /* createGroup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = createGroup.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AA8AD882795DC3E0017C458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA8AD9E2795DC410017C458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA8ADA82795DC410017C458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AA8AD822795DC3E0017C458 = {
+			isa = PBXGroup;
+			children = (
+				8AA8AD8D2795DC3E0017C458 /* Project_EzMoney */,
+				8AA8ADA42795DC410017C458 /* Project_EzMoneyTests */,
+				8AA8ADAE2795DC410017C458 /* Project_EzMoneyUITests */,
+				8AA8AD8C2795DC3E0017C458 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AA8AD8C2795DC3E0017C458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AA8AD8B2795DC3E0017C458 /* Project_EzMoney.app */,
+				8AA8ADA12795DC410017C458 /* Project_EzMoneyTests.xctest */,
+				8AA8ADAB2795DC410017C458 /* Project_EzMoneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AA8AD8D2795DC3E0017C458 /* Project_EzMoney */ = {
+			isa = PBXGroup;
+			children = (
+				8AA8AD8E2795DC3E0017C458 /* AppDelegate.swift */,
+				8AA8AD902795DC3E0017C458 /* SceneDelegate.swift */,
+				8AA8AD922795DC3E0017C458 /* ViewController.swift */,
+				8AA8AD942795DC3E0017C458 /* Main.storyboard */,
+				8AA8ADBE2795E90A0017C458 /* createGroup.storyboard */,
+				8A15CAE52795EBC900C60D0B /* joinGroup.storyboard */,
+				8AA8AD972795DC400017C458 /* Assets.xcassets */,
+				8AA8AD992795DC400017C458 /* LaunchScreen.storyboard */,
+				8AA8AD9C2795DC400017C458 /* Info.plist */,
+				8A7550D92795F84F004978DD /* MyGroups.storyboard */,
+				8A7550DB2795FE20004978DD /* AddExpenses.storyboard */,
+				50761E2A27991086005FC84E /* transHistory.storyboard */,
+				50761E2C2799163A005FC84E /* trans2.storyboard */,
+				50761E2E27991745005FC84E /* tarns3.storyboard */,
+			);
+			path = Project_EzMoney;
+			sourceTree = "<group>";
+		};
+		8AA8ADA42795DC410017C458 /* Project_EzMoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AA8ADA52795DC410017C458 /* Project_EzMoneyTests.swift */,
+			);
+			path = Project_EzMoneyTests;
+			sourceTree = "<group>";
+		};
+		8AA8ADAE2795DC410017C458 /* Project_EzMoneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AA8ADAF2795DC410017C458 /* Project_EzMoneyUITests.swift */,
+				8AA8ADB12795DC410017C458 /* Project_EzMoneyUITestsLaunchTests.swift */,
+			);
+			path = Project_EzMoneyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AA8AD8A2795DC3E0017C458 /* Project_EzMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AA8ADB52795DC410017C458 /* Build configuration list for PBXNativeTarget "Project_EzMoney" */;
+			buildPhases = (
+				8AA8AD872795DC3E0017C458 /* Sources */,
+				8AA8AD882795DC3E0017C458 /* Frameworks */,
+				8AA8AD892795DC3E0017C458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project_EzMoney;
+			productName = Project_EzMoney;
+			productReference = 8AA8AD8B2795DC3E0017C458 /* Project_EzMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AA8ADA02795DC410017C458 /* Project_EzMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AA8ADB82795DC410017C458 /* Build configuration list for PBXNativeTarget "Project_EzMoneyTests" */;
+			buildPhases = (
+				8AA8AD9D2795DC410017C458 /* Sources */,
+				8AA8AD9E2795DC410017C458 /* Frameworks */,
+				8AA8AD9F2795DC410017C458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AA8ADA32795DC410017C458 /* PBXTargetDependency */,
+			);
+			name = Project_EzMoneyTests;
+			productName = Project_EzMoneyTests;
+			productReference = 8AA8ADA12795DC410017C458 /* Project_EzMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AA8ADAA2795DC410017C458 /* Project_EzMoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AA8ADBB2795DC410017C458 /* Build configuration list for PBXNativeTarget "Project_EzMoneyUITests" */;
+			buildPhases = (
+				8AA8ADA72795DC410017C458 /* Sources */,
+				8AA8ADA82795DC410017C458 /* Frameworks */,
+				8AA8ADA92795DC410017C458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AA8ADAD2795DC410017C458 /* PBXTargetDependency */,
+			);
+			name = Project_EzMoneyUITests;
+			productName = Project_EzMoneyUITests;
+			productReference = 8AA8ADAB2795DC410017C458 /* Project_EzMoneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AA8AD832795DC3E0017C458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8AA8AD8A2795DC3E0017C458 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8AA8ADA02795DC410017C458 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8AA8AD8A2795DC3E0017C458;
+					};
+					8AA8ADAA2795DC410017C458 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8AA8AD8A2795DC3E0017C458;
+					};
+				};
+			};
+			buildConfigurationList = 8AA8AD862795DC3E0017C458 /* Build configuration list for PBXProject "Project_EzMoney" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AA8AD822795DC3E0017C458;
+			productRefGroup = 8AA8AD8C2795DC3E0017C458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AA8AD8A2795DC3E0017C458 /* Project_EzMoney */,
+				8AA8ADA02795DC410017C458 /* Project_EzMoneyTests */,
+				8AA8ADAA2795DC410017C458 /* Project_EzMoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AA8AD892795DC3E0017C458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50761E2B27991086005FC84E /* transHistory.storyboard in Resources */,
+				8A7550DA2795F84F004978DD /* MyGroups.storyboard in Resources */,
+				50761E2D2799163A005FC84E /* trans2.storyboard in Resources */,
+				8AA8AD9B2795DC400017C458 /* LaunchScreen.storyboard in Resources */,
+				8A15CAE62795EBC900C60D0B /* joinGroup.storyboard in Resources */,
+				8AA8AD982795DC400017C458 /* Assets.xcassets in Resources */,
+				8A7550DC2795FE20004978DD /* AddExpenses.storyboard in Resources */,
+				8AA8ADBF2795E90A0017C458 /* createGroup.storyboard in Resources */,
+				8AA8AD962795DC3E0017C458 /* Main.storyboard in Resources */,
+				50761E2F27991745005FC84E /* tarns3.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA8AD9F2795DC410017C458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA8ADA92795DC410017C458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AA8AD872795DC3E0017C458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA8AD932795DC3E0017C458 /* ViewController.swift in Sources */,
+				8AA8AD8F2795DC3E0017C458 /* AppDelegate.swift in Sources */,
+				8AA8AD912795DC3E0017C458 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA8AD9D2795DC410017C458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA8ADA62795DC410017C458 /* Project_EzMoneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA8ADA72795DC410017C458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA8ADB22795DC410017C458 /* Project_EzMoneyUITestsLaunchTests.swift in Sources */,
+				8AA8ADB02795DC410017C458 /* Project_EzMoneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AA8ADA32795DC410017C458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AA8AD8A2795DC3E0017C458 /* Project_EzMoney */;
+			targetProxy = 8AA8ADA22795DC410017C458 /* PBXContainerItemProxy */;
+		};
+		8AA8ADAD2795DC410017C458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AA8AD8A2795DC3E0017C458 /* Project_EzMoney */;
+			targetProxy = 8AA8ADAC2795DC410017C458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AA8AD942795DC3E0017C458 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AA8AD952795DC3E0017C458 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AA8AD992795DC400017C458 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AA8AD9A2795DC400017C458 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AA8ADB32795DC410017C458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AA8ADB42795DC410017C458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AA8ADB62795DC410017C458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Project_EzMoney/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "auc.edu.Project-EzMoney";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AA8ADB72795DC410017C458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Project_EzMoney/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "auc.edu.Project-EzMoney";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8AA8ADB92795DC410017C458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "auc.edu.Project-EzMoneyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project_EzMoney.app/Project_EzMoney";
+			};
+			name = Debug;
+		};
+		8AA8ADBA2795DC410017C458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "auc.edu.Project-EzMoneyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project_EzMoney.app/Project_EzMoney";
+			};
+			name = Release;
+		};
+		8AA8ADBC2795DC410017C458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "auc.edu.Project-EzMoneyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Project_EzMoney;
+			};
+			name = Debug;
+		};
+		8AA8ADBD2795DC410017C458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "auc.edu.Project-EzMoneyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Project_EzMoney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AA8AD862795DC3E0017C458 /* Build configuration list for PBXProject "Project_EzMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA8ADB32795DC410017C458 /* Debug */,
+				8AA8ADB42795DC410017C458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AA8ADB52795DC410017C458 /* Build configuration list for PBXNativeTarget "Project_EzMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA8ADB62795DC410017C458 /* Debug */,
+				8AA8ADB72795DC410017C458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AA8ADB82795DC410017C458 /* Build configuration list for PBXNativeTarget "Project_EzMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA8ADB92795DC410017C458 /* Debug */,
+				8AA8ADBA2795DC410017C458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AA8ADBB2795DC410017C458 /* Build configuration list for PBXNativeTarget "Project_EzMoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA8ADBC2795DC410017C458 /* Debug */,
+				8AA8ADBD2795DC410017C458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AA8AD832795DC3E0017C458 /* Project object */;
+}
