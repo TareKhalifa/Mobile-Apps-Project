@@ -15,7 +15,7 @@
 ![IOS](https://github.com/TareKhalifa/MobileApps-Project/blob/master/Pictures/IOS%20storyboard.png?raw=true) 
 
 ## ERD
-- ![] (https://github.com/TareKhalifa/MobileApps-Project/blob/master/Pictures/df309d9a-9126-4bd5-b95e-7174c2e75096.jfif)
+- ![erd](https://github.com/TareKhalifa/MobileApps-Project/blob/master/Pictures/df309d9a-9126-4bd5-b95e-7174c2e75096.jfif)
 
 ## Prerequisite
 - For Android (an Android device with at least Android 10)
